@@ -4,7 +4,7 @@ import com.example.SocialNetwork.model.*;
 
 public class ReactFactory {
 
-      public React createReact(String name) {
+      public static Reaction createReact(String name) {
           switch(name) {
               case "Laugh" : return new LaughReaction();
               case "Like" : return new LikeReaction();

@@ -6,6 +6,6 @@ import javax.persistence.Entity;
 
 @Entity
 @Data
-public class LaughReaction extends React {
+public class LaughReaction extends Reaction {
 
 }

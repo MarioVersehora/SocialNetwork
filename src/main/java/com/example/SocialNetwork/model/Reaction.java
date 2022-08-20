@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Entity
 @Data
-public class React {
+public class Reaction {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

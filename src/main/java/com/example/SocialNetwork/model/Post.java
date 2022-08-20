@@ -21,7 +21,7 @@ public class Post {
     private List<Comment> commentsList;
 
     @OneToMany
-    private List<React>  reactsList;
+    private List<Reaction>  reactsList;
 
     private String content;
 
@@ -38,8 +38,8 @@ public class Post {
 
     }
 
-    public void addReact(React react) {
-        reactsList.add(react);
+    public void addReact(Reaction reaction) {
+        reactsList.add(reaction);
     }
 
 
